@@ -6,17 +6,8 @@
 			<link rel="stylesheet" href="/assets/css/main.css">
 		</head>
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><font size="5">{{site.name}}</font></li>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/research">Research and Publications</a></li>
-		        	<li><a href="/group">Group</a></li>
-		        	<li><a href="/code">Code</a></li>
-	        		<li><a href="/notes">Notes</a></li>
-	        		<li><a href="/links">Links</a></li>
-	    		</ul>
-			</nav>
+			{% include navigation.html %}
+			
 			<div class="container">
 			
 			{{ content }}
@@ -28,7 +19,7 @@
 	        		<li><a href="https://scholar.google.com">google scholar</a></li>
 	        		<li><a href="https://cv.com">CV</a></li>
 	        		<li><a href="https://twitter.com">twitter</a></li>
-				  </ul>
+			</ul>
 			</footer>
 		</body>
 	</html>
