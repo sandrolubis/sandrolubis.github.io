@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" href="/assets/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><font size="7">{{site.name}}</font></li>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/research">Research and Publications</a></li>
+		        	<li><a href="/group">Group</a></li>
+		        	<li><a href="/code">Code</a></li>
+	        		<li><a href="/notes">Notes</a></li>
+	        		<li><a href="/links">Links</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:mail@mail.com">email</a></li>
+	        		<li><a href="https://scholar.google.com">google scholar</a></li>
+	        		<li><a href="https://cv.com">CV</a></li>
+	        		<li><a href="https://twitter.com">twitter</a></li>
+				  </ul>
+			</footer>
+		</body>
+	</html>
