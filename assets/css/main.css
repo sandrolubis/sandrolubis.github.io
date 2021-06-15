@@ -4,7 +4,8 @@ body {
     padding-top:  50px;
 }
 header {
-	height: 500px;
+	width: 1000px;
+	height: 250px;
 	background-image: url("https://sandrolubis.github.io/assets/images/HB_bg_130427_2.jpg");
 }
 nav ul, footer ul {
