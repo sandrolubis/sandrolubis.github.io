@@ -3,6 +3,9 @@ body {
     padding-left:  300px;
     padding-top:  50px;
 }
+header {
+	background-image: url("https://sandrolubis.github.io/assets/images/HB_bg_130427_2.jpg");
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
