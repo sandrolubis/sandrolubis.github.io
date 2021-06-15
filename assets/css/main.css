@@ -8,8 +8,6 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-	height: 100px;
-	background-image: url("https://sandrolubis.github.io/assets/images/HB_bg_130427_2.jpg");
 }
 nav ul li, footer ul li {
     display: inline;
